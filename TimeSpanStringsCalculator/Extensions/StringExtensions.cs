@@ -12,6 +12,7 @@
             return timeSpan
                 .ToLower()
                 .Replace("seconds", "s")
+                .Replace("second", "s")
                 .Replace("sec", "s");
         }
 
@@ -25,6 +26,7 @@
             return timeSpan
                 .ToLower()
                 .Replace("minutes", "m")
+                .Replace("minute", "m")
                 .Replace("min", "m");
         }
 
